@@ -45,4 +45,4 @@ Follow these steps:
 2. **Install** the **Lidar Labeler Toolbox** via MATLAB Add-Ons.
 3. **Convert** the Velodyne `.bin` files to `.pcd` format using the provided script:
    ```bash
-   python convert_kitti_to_pcd.py
+   python convert_kitti_to_pcd_xyzi.py
