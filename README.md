@@ -52,10 +52,12 @@ Follow these steps:
    
 ## 📁 Directory Structure for using MATLAB
 
-The following folder structure is used for this project:
-
+```
 custom_kitti/
 └── sequences/
-    └── 05/  <--- Since I am working on the installed 05 th sequence from the Kitti Vision Benchmark  
-        ├── velodyne/           # Input .bin files
-        └── velodyne_pcd/       <--- This will be created if the convert_kitti_to_pcd_xyzi script is called, and only if there is none of this folder exists to avoid multiple creating.
+    └── 05/  ← Since I am working on the installed 05th sequence from the KITTI Vision Benchmark
+        ├── velodyne/         # Input .bin files
+        └── velodyne_pcd/     # This will be created if the convert_kitti_to_pcd_xyzi script is called,
+                              # and only if this folder does not already exist (to avoid duplication).
+```
+
