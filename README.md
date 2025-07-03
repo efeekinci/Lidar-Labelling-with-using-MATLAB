@@ -1,4 +1,4 @@
-This repository is used for visualizing the LIDAR scans with their represantative times, and labelling the pointcloud points with using MATLAB's Lidar Labeler Tool. You may want to go with first only visualizing and not labelling (semantic-kitti-api) and then proceed with labeling (MATLAB).  
+This repository is used for visualizing the LIDAR scans with their represantative times and pcd files, and labelling the pointcloud points with using MATLAB's Lidar Labeler Tool. You may want to go with first only visualizing and not labelling (semantic-kitti-api) and then proceed with labeling (MATLAB).  
 
 Note that MATLAB itself helps you to visualize scans too!   
 Make sure that you understood [https://semantic-kitti.org/dataset.html](https://semantic-kitti.org/dataset.html#overview) fully!, especially the folder structures, you need to extract different installed folders inside of your custom kitti folder. Also another suggestion might be doing all of this inside of a virtual python environment to avoid overall conflictions! 
